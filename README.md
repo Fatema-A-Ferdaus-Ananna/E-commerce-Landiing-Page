@@ -1,1 +1,1 @@
-# E-commerce-Landiing-Page
+# E-commerce-Landiing-Page | Responsive Design | Html, CSS, Javascript
