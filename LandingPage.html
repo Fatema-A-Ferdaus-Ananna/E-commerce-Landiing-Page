@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous"referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="LandingStyle.css">
+    <link rel="stylesheet" href="cart_style.css">
+    <link rel="stylesheet" href="product_card.css">
+
+    <title>Coffee Coo Electronics</title>
+    <!-- SEO -->
+    <meta name="description" content="Coffee Coo Electronics">
+    <meta name="description" content="Buy Good Quality Coffee Beans">
+    <meta name="description" content="Buy Good Quality Coffee Machine">
+    <meta name="keywords" content="Coffee Coo Electronics, coffee-bean, coffee-machine, e-commerce">
+    <meta name="author" content="Coffee Coo Electronics">
+
+    <!-- Google Analytics Code will be here. I do not have a Google Analytics account. So I could not add it here -->
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo"><img src="image/coffee-cup.png" alt="Coffee Coo Electronics" width="32px" height="32px">Coffee Coo Electronics</h1>
+        <ul class="nav-menu">
+            <li class="menu"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Products</li>
+            <li><a href="#"></a>About</li>
+            <li><a href="#"></a>Contact</li>
+            <li><a href="#" class="action"></a>Account</li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fa fa-bars" style="font-size:24px"  ></i>
+        </div>
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Do You Like Drinking & Making Coffee?</h2>
+            <div id="line"></div>
+            <p>Then You Are In Right Place!!</p>
+            <div>
+                <form class="search" method="post">                                     
+                          <input class="input raw"
+                                type="text"
+                                 placeholder="Type Here"
+                                 minlength="3" required/>                                 
+                        <button class="search_btn" type="submit"> Search </button>                             
+                </form>
+            </div>
+            <h4>10% Discount on Coffe Seed Ongoing!</h4>
+            <a href="#details" id="more">Learn More</a>
+        </div>
+    </header>
+    
+
+    <section id="details">
+        <div class="trend">
+            <h2>Details</h2>
+            <div id="line"></div>
+        </div>
+
+        <div class="row1">
+            <div class="column-r1 " >
+                <div class="img">
+                    <img src="image/beans.png" alt="coffe beans" srcset="">
+                </div>
+                <div class="detail">
+                    <p>Coffee Seed <br><br>
+                        Referesh your mind & Energize all Day <br> <br>   
+                        Best Quality</p>
+                    <a href="#coffee-bean" id="more1">Explore</a>
+                </div>
+            </div>
+            <div class="column-r1" >
+                <div class="img">
+                    <img src="image/coffee-machine.png" alt="coffe machine" srcset="">
+                </div>
+                <div class="detail">
+                    <p>A Beautiful Model</p>
+                    <a href="#coffee-machine" id="more1">Explore</a>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <!--heading--->
+        <div class="trend">
+            <h2>Reviews</h2>
+            <div id="line"></div>
+        </div>
+        <!--testimonials-box-container------>
+        <div class="testimonial-box-container">
+            <div class="testimonial-box">
+                <!--top------------------------->
+                <div class="box-top">
+                    <!--profile----->
+                    <div class="profile">
+                        <!--img---->
+                        <div class="profile-img">
+                            <img src="image/profile_color1.svg" alt="profile" />
+                        </div>
+                        <!--name-and-username-->
+                        <div class="name-user">
+                            <strong>Fatema</strong>
+                            <span>@fatema</span>
+                        </div>
+                    </div>
+                    <!--reviews------>
+                    <div class="reviews">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i><!--Empty star-->
+                    </div>
+                </div>
+                <!--Comments---------------------------------------->
+                <div class="client-comment">
+                    <p>The Product is good.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sec1" id="coffee-bean">
+        <div class="trend">
+            <h2>Most Popular Coffee Bean</h2>
+            <div id="line"></div>
+        </div>
+
+        <div class="item">
+            <div class="single-item">
+                <div class="left-set">
+                  <img decoding="async" src="image/beans.png" alt="coffe beans">
+                </div>
+                <div class="right-set"> 
+                  <div class="productname">Arabica Coffe Bean</div>
+                  <div class="pq">
+                   <div class="price">620 BDT</div>
+                   <div class="quantity">200g</div>
+                  </div>
+                   <div class="description">
+                     <p>The most popular and well known types of coffee bean. 
+                       In fact, over 60% of the coffee beans in the world that are produced are Arabica variety.
+                       You can order now for you & you loved ones!</p>
+                   </div>
+           
+                   <div class="cart">
+                       <div class="cart-btn">
+                           <button>Add to CART</button>
+                       </div>
+           
+                       <div class="cart-btn">
+                           <button id="explore" onclick="explore()">Explore More</button>
+                       </div>
+                       
+                      
+                   </div>
+                 </div>
+              </div>
+        </div>
+       
+    </section>
+
+    <section class="sec1" id="coffee-machine">
+        <div class="trend">
+            <h2>Trending Coffee Machine</h2>
+            <div id="line"></div>
+        </div>
+
+        <div class="item">
+            <div class="single-item">
+                <div class="left-set">
+                  <img decoding="async" src="image/coffee-machine.png" alt="coffe machine">
+                </div>
+                <div class="right-set"> 
+                  <div class="productname">Philips Hd7462 Basic Mid Drip Coffee Maker </div>
+                  <div class="pq">
+                   <div class="price">8200 BDT</div>
+                   <div class="quantity"></div>
+                  </div>
+                   <div class="description">
+                     <p>The most popular and well known types of coffee bean. 
+                       In fact, over 60% of the coffee beans in the world that are produced are Arabica variety.
+                       You can order now for you & you loved ones!</p>
+                   </div>
+           
+                   <div class="cart">
+                       <div class="cart-btn">
+                           <button>Add to CART</button>
+                       </div>
+           
+                       <div class="cart-btn">
+                           <button id="explore" onclick="explore()">Explore More</button>
+                       </div>                     
+                   </div>
+                 </div>
+              </div>
+        </div>
+       
+    </section>
+
+    <section id="order">
+        <div class="trend">
+            <h2>Order</h2>
+            <div id="line"></div>
+        </div>
+        <div id="products_container">
+
+            <div class="product">
+                <div id="product_card">
+
+                    <div id="header">
+                        <span> Item 01</span>
+                    </div>
+                   
+                   
+                    <div id="scene">
+                        <span>  Preview  </span>
+                        <img  src="image/beans.png"/>
+                    </div>
+                   
+                    <div id="appendix">
+                      
+                       <div class="section">
+              
+                          <div> Details </div>
+                          <div> Discount </div>
+              
+                       </div>
+              
+              
+                       <div class="section">
+                           <div> Add to Cart </div>
+                       </div>
+              
+                   </div>
+              
+              
+                 </div>
+            </div>
+
+            <div class="product">
+                <div id="product_card">
+
+                    <div id="header">
+                        <span> Item 02</span>
+                    </div>
+                   
+                   
+                    <div id="scene">
+                        <span>  Preview  </span>
+                        <img  src="image/coffee-grinder.png"/>
+                    </div>
+                   
+                    <div id="appendix">
+                      
+                       <div class="section">
+              
+                          <div> Details </div>
+                          <div> Discount </div>
+              
+                       </div>
+              
+              
+                       <div class="section">
+                           <div> Add to Cart </div>
+                       </div>
+              
+                   </div>
+              
+              
+                 </div>
+            </div>
+
+            <div class="product">
+                <div id="product_card">
+
+                    <div id="header">
+                        <span> Item 03</span>
+                    </div>
+                   
+                   
+                    <div id="scene">
+                        <span>  Preview  </span>
+                        <img  src="image/portafilter.png"/>
+                    </div>
+                   
+                    <div id="appendix">
+                      
+                       <div class="section">
+              
+                          <div> Details </div>
+                          <div> Discount </div>
+              
+                       </div>
+              
+              
+                       <div class="section">
+                           <div> Add to Cart </div>
+                       </div>
+              
+                   </div>
+              
+              
+                 </div>
+            </div>
+     
+            <div class="product">
+                <div id="product_card">
+
+                    <div id="header">
+                        <span> Item 04</span>
+                    </div>
+                   
+                   
+                    <div id="scene">
+                        <span>  Preview  </span>
+                        <img  src="image/coffee-cup(1).png"/>
+                    </div>
+                   
+                    <div id="appendix">
+                      
+                       <div class="section">
+              
+                          <div> Details </div>
+                          <div> Discount </div>
+              
+                       </div>
+              
+              
+                       <div class="section">
+                           <div> Add to Cart </div>
+                       </div>
+              
+                   </div>
+              
+              
+                 </div>
+            </div>
+
+            <div class="product">
+                <div id="product_card">
+
+                    <div id="header">
+                        <span> Item 05</span>
+                    </div>
+                   
+                   
+                    <div id="scene">
+                        <span>  Preview  </span>
+                        <img  src="image/profile_color1.svg"/>
+                    </div>
+                   
+                    <div id="appendix">
+                      
+                       <div class="section">
+              
+                          <div> Details </div>
+                          <div> Discount </div>
+              
+                       </div>
+              
+              
+                       <div class="section">
+                           <div> Add to Cart </div>
+                       </div>
+              
+                   </div>
+              
+              
+                 </div>
+            </div>
+     
+        </div>
+    </section>
+
+    <section class="section-faq">
+        <div class="box">
+            <p class="heading-faq">FAQs</p>
+            <div class="faqs">
+               <details>
+                  <summary>Can we get Refund?</summary>
+                  <p class="text">7 to 14 day Refund Policy</p>
+               </details>
+               <details>
+                  <summary>Can we get Refund?</summary>
+                  <p class="text">7 to 14 day Refund Policy</p>
+               </details>
+              <details>
+                  <summary>Can we get Refund?</summary>
+                  <p class="text">7 to 14 day Refund Policy</p>
+               </details>
+            </div>
+         </div>
+
+         <div class="box">
+            <p class="heading-faq">FAQs</p>
+            <div class="faqs">
+                <details>
+                    <summary>Can we get Refund?</summary>
+                    <p class="text">7 to 14 day Refund Policy</p>
+                 </details>
+                 <details>
+                    <summary>Can we get Refund?</summary>
+                    <p class="text">7 to 14 day Refund Policy</p>
+                 </details>
+                 <details>
+                    <summary>Can we get Refund?</summary>
+                    <p class="text">7 to 14 day Refund Policy</p>
+                 </details>
+            </div>
+         </div>
+    </section>
+
+    <section class="order">
+        <div class="trend">
+            <h2>Want to Order?</h2>
+        </div>
+        <div class="order-btn">
+            <a href="#order" id="more1">Click Here!</a>
+        </div>
+    </section>
+
+    <section class="awards">
+        <div class="trend">
+            <h2>Awards</h2>
+            <div id="line"></div>
+        </div>
+        <div class="div-awards" id = "d">
+            <button onclick="previous()" id="more1">Previous</button>
+            <img id="photoList" src="image/award.png" alt="awards" height="300px" width="500px">
+            <button onclick="next()" id="more1">Next</button>
+        </div>
+    </section>
+
+
+    
+
+
+    <section class="footers">
+        <div class="policy">
+            <p>Coffee Coo Electronics</p>
+            <a href="#">Privacy Policy</a>
+        </div>
+        
+        <div class="social-media">
+            <span>Social Media: </span>
+            <a href="https://facebook.com" class="fab fa-facebook-f" target="_blank"></a> 
+            <a href="https://instagram.com" class="fab fa-instagram" target="_blank"></a> 
+        </div>
+    </section>
+
+    
+
+    <script src="LandingScript.js"></script>
+</body>
+</html>
